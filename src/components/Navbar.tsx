@@ -1,6 +1,5 @@
 import styles from "./Navbar.module.css";
 import { motion, useAnimation } from "framer-motion";
-import { useRef } from "react";
 
 const navLinks: { page: string; link: string }[] = [
   { page: "about", link: "/#about" },
