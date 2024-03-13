@@ -1,0 +1,10 @@
+.ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.ul svg {
+  font-size: 48px;
+}
