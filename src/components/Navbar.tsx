@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.css";
 import { motion, useAnimation } from "framer-motion";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const navLinks: { page: string; link: string }[] = [
   { page: "about", link: "/#about" },
@@ -13,7 +13,17 @@ export function Navbar() {
       <nav className={styles.nav}>
         <ul>
           {navLinks.map((link) => (
-            <NavbarItem key={link.link} text={link.page} />
+            <>
+              <NavbarItem key={link.link} text={link.page} />
+              <Link
+                activeClass={styles.active}
+                to={link.page}
+                smooth={true}
+                spy
+              >
+                {link.page}
+              </Link>
+            </>
           ))}
         </ul>
       </nav>

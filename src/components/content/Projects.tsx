@@ -1,112 +1,12 @@
 import styles from "./Projects.module.css";
+import { PROJECTS } from "./ProjectData.tsx";
 
-type Project = {
+export type Project = {
   title: string;
   description: string;
+  liveLink?: string;
+  githubLink: string;
 };
-
-const PROJECTS: Project[] = [
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-  {
-    title: "Borro",
-    description:
-      "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
-  },
-  {
-    title: "TicTacToe",
-    description:
-      "Simple game of tic tac toe made with React. It was a fun project to make and helped me understand the basics of React.",
-  },
-  {
-    title: "Interval Game",
-    description:
-      "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-  },
-];
 
 export function Projects() {
   return (
@@ -116,17 +16,36 @@ export function Projects() {
           key={index}
           title={project.title}
           description={project.description}
+          liveLink={project.liveLink || ""}
+          githubLink={project.githubLink}
         />
       ))}
     </div>
   );
 }
 
-export function Project(props: { title: string; description: string }) {
+export function Project(props: {
+  title: string;
+  description: string;
+  liveLink: string;
+  githubLink: string;
+}) {
   return (
     <div className={styles.projectContainer}>
       <h3>{props.title}</h3>
       <p>{props.description}</p>
+      {
+        <div>
+          {props.liveLink ? (
+            <button onClick={() => window.open(props.liveLink, "_blank")}>
+              View live
+            </button>
+          ) : null}
+          <button onClick={() => window.open(props.githubLink, "_blank")}>
+            View on Github
+          </button>
+        </div>
+      }
     </div>
   );
 }

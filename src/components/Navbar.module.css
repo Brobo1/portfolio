@@ -29,3 +29,7 @@
   height: 1px;
   background: #c3c3c3;
 }
+
+.active {
+  background-color: red;
+}
