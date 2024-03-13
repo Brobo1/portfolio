@@ -9,13 +9,24 @@ export function Socials() {
   return (
     <ul className={styles.ul}>
       <SocialsIcon>
-        <GitHubIcon />
+        <GitHubIcon
+          onClick={() => window.open("https://github.com/Brobo1", "_blank")}
+        />
       </SocialsIcon>
       <SocialsIcon>
-        <LinkedInIcon />
+        <LinkedInIcon
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/arman-ahmadzadeh-892310241/",
+              "_blank",
+            )
+          }
+        />
       </SocialsIcon>
       <SocialsIcon>
-        <EmailIcon />
+        <EmailIcon
+          onClick={() => window.open("mailto:armanahz95@gmail.com", "_blank")}
+        />
       </SocialsIcon>
     </ul>
   );

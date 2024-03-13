@@ -7,6 +7,7 @@ export function Header() {
     <div className={styles.div}>
       <div>
         <h1>Arman Ahmadzadeh</h1>
+        <p>Junior fullstack consultant</p>
         <Navbar />
       </div>
 

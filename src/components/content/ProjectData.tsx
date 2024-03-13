@@ -2,10 +2,15 @@ import { Project } from "./Projects.tsx";
 
 export const PROJECTS: Project[] = [
   {
-    title: "Borro",
+    title: "Borro Backend",
     description:
       "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
     githubLink: "https://github.com/Brobo1/BorroAPI",
+  },
+  {
+    title: "Borro Frontend",
+    description: "Frontend for the Borro project.",
+    githubLink: "https://github.com/Sasibru/borro-react-app",
   },
   {
     title: "TicTacToe",
@@ -47,6 +52,20 @@ export const PROJECTS: Project[] = [
       "An investment calculator that allows users to calculate their investment returns. Updates in real time and displays a table based on duration.",
     githubLink: "https://github.com/Brobo1/investment-calc-v2",
     liveLink: "https://investment-calc-zeta.vercel.app/",
+  },
+  {
+    title: "Fractal tree",
+    description:
+      "A simple fractal tree made with recursion in JavasScript. A work in progress that i plan on expanding to allow users to interact with the tree.",
+    githubLink: "https://github.com/Brobo1/fractal-tree",
+    liveLink: "https://fractal-tree-swart.vercel.app/",
+  },
+  {
+    title: "Project Management app",
+    description:
+      "Project management app that allows users to create projects and add tasks to them.",
+    githubLink: "https://github.com/Brobo1/project-management-app-follow-along",
+    liveLink: "https://project-management-app-three-sigma.vercel.app/",
   },
   {
     title: "",
