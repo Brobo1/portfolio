@@ -61,7 +61,7 @@ function NavbarItem(props: { text: string }) {
       spy={true}
       smooth={true}
       offset={-10}
-      duration={400}
+      duration={150}
       onMouseOver={startHover}
       onMouseOut={endHover}
       onSetActive={() => setIsActive(true)}
@@ -86,8 +86,8 @@ function NavbarItem(props: { text: string }) {
           }}
           transition={{
             type: "spring",
-            stiffness: 500,
-            damping: 20,
+            stiffness: 1000,
+            damping: 50,
           }}
           className={styles.line}
         />

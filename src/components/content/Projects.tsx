@@ -1,23 +1,17 @@
 import styles from "./Projects.module.css";
 import { PROJECTS } from "./ProjectData.tsx";
 
-export type Project = {
-  title: string;
-  description: string;
-  liveLink?: string;
-  githubLink: string;
-};
-
 export function Projects() {
   return (
-    <div id={"projects"}>
+    <div className={styles.projects} id={"projects"}>
       {PROJECTS.map((project, index) => (
         <Project
           key={index}
           title={project.title}
           description={project.description}
-          liveLink={project.liveLink || ""}
+          projectLangs={project.technologies}
           githubLink={project.githubLink}
+          liveLink={project.liveLink || ""}
         />
       ))}
     </div>
@@ -27,23 +21,31 @@ export function Projects() {
 export function Project(props: {
   title: string;
   description: string;
-  liveLink: string;
+  projectLangs: string[];
   githubLink: string;
+  liveLink: string;
 }) {
   return (
     <div className={styles.projectContainer}>
       <h3>{props.title}</h3>
       <p>{props.description}</p>
       {
-        <div>
-          {props.liveLink ? (
-            <button onClick={() => window.open(props.liveLink, "_blank")}>
-              View live
+        <div className={styles.projectContainerActions}>
+          <div className={styles.projectContainerLangs}>
+            {props.projectLangs.map((projectLang) => (
+              <p>{projectLang}</p>
+            ))}
+          </div>
+          <div className={styles.projectContainerButtons}>
+            {props.liveLink ? (
+              <button onClick={() => window.open(props.liveLink, "_blank")}>
+                View live
+              </button>
+            ) : null}
+            <button onClick={() => window.open(props.githubLink, "_blank")}>
+              View on Github
             </button>
-          ) : null}
-          <button onClick={() => window.open(props.githubLink, "_blank")}>
-            View on Github
-          </button>
+          </div>
         </div>
       }
     </div>

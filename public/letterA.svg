@@ -1,0 +1,15 @@
+<svg viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"
+       transform="translate(0,0), scale(1)">
+        <rect x="-2.4" y="-2.4" width="28.80" height="28.80"
+              rx="1.1520000000000001" fill="#3b3b3b" />
+    </g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"
+       stroke="#CCCCCC" stroke-width="0.288"/>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M6 21L7.5 15M18 21L16.5 15M16.5 15L14 5C14 5 13.5 3 12 3C10.5 3 10 5 10 5L7.5 15M16.5 15H7.5"
+              stroke="#b5b5b5" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </g>
+</svg>

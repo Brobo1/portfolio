@@ -1,24 +1,34 @@
+import styles from "./About.module.css";
+import { awLink } from "../reuse/consts.tsx";
+
+// const getAge = (birthdate: string) => {
+//   const today = new Date();
+//   const birthDate = new Date(birthdate);
+//   let age = today.getFullYear() - birthDate.getFullYear();
+//   const m = today.getMonth() - birthDate.getMonth();
+//   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+//     age--;
+//   }
+//   return age;
+// };
+
 export function About() {
+  // let age = getAge("1995-02-16");
+
   return (
-    <div id={"about"}>
+    <div id={"about"} className={styles.about}>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
-        atque, corporis dolorem error fugiat minima optio porro ratione
-        voluptatibus! Ab, consequatur facilis harum libero optio quod ratione
-        tempora voluptatibus voluptatum?Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Alias, amet consequuntur dolorem hic iure labore
-        laborum molestias mollitia natus nemo, nisi non nostrum quos sit
-        voluptate! Dolore eos modi vero? Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Amet beatae cumque deleniti dolorum eaque
-        exercitationem incidunt, magni minima perspiciatis provident veniam
-        veritatis vitae voluptate? Cumque iste magni reiciendis sint. Quod!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem harum
-        non odit sint tenetur. Aliquid aperiam commodi earum expedita hic
-        provident quas quis quod saepe velit. Laborum, nesciunt ut. Non?Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Ab atque ex maxime
-        perspiciatis. Est et fugiat labore, libero magnam, maiores molestiae
-        quas quis, quos recusandae tempore veniam. Aliquam, blanditiis,
-        inventore!
+        For as long as I can remember I always had an interest in electronics
+        and tech. I used to disassemble my toys to get the components and make
+        new things. My curiosity grew and I took a bachelors degree in IT and
+        Information systems. Unfortunately I graduated right as covid lockdowns
+        started and I struggled to find work. <br /> <br />
+        After covid restrictions were lifted I found a consulting company called
+        {awLink} that offered a bootcamp which i decided to take. I am now
+        working as a consultant at said company and am looking for projects.
+        <br /> <br />
+        In my free time I like to produce music, tinkering with electronics and
+        hang out with friends and family.
       </p>
     </div>
   );
