@@ -3,7 +3,7 @@ import { PROJECTS } from "./ProjectData.tsx";
 
 export function Projects() {
   return (
-    <div className={styles.projects} id={"projects"}>
+    <div className={styles.projects}>
       {PROJECTS.map((project, index) => (
         <Project
           key={index}

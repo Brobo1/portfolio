@@ -16,7 +16,7 @@ export function About() {
   // let age = getAge("1995-02-16");
 
   return (
-    <div id={"about"} className={styles.about}>
+    <div className={styles.about}>
       <p>
         For as long as I can remember I always had an interest in electronics
         and tech. I used to disassemble my toys to get the components and make
@@ -24,8 +24,8 @@ export function About() {
         Information systems. Unfortunately I graduated right as covid lockdowns
         started and I struggled to find work. <br /> <br />
         After covid restrictions were lifted I found a consulting company called
-        {awLink} that offered a bootcamp which i decided to take. I am now
-        working as a consultant at said company and am looking for projects.
+        {awLink} that offered a bootcamp which I decided to take. I am now
+        working as a consultant at said company and I'm looking for projects.
         <br /> <br />
         In my free time I like to produce music, tinkering with electronics and
         hang out with friends and family.

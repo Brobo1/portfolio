@@ -56,11 +56,10 @@ function NavbarItem(props: { text: string }) {
 
   return (
     <Link
-      className={styles.Link}
+      className={styles.link}
       to={props.text}
       spy={true}
       smooth={true}
-      offset={-10}
       duration={150}
       onMouseOver={startHover}
       onMouseOut={endHover}

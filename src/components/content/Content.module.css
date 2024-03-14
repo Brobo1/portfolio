@@ -1,6 +1,7 @@
 .main {
   width: 50%;
   display: flex;
+  gap: 50px;
   flex-direction: column;
   padding: 6em 0;
 }
