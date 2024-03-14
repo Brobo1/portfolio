@@ -30,6 +30,11 @@
   background: #c3c3c3;
 }
 
-.active {
-  background-color: red;
+.Link {
+  color: inherit; /* or any color you want */
+  text-decoration: none; /* to remove underline */
+}
+.Link:hover {
+  color: inherit; /* or any color you want */
+  text-decoration: none; /* to remove underline */
 }
