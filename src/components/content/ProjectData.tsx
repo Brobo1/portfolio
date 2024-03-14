@@ -34,14 +34,14 @@ export const PROJECTS: Project[] = [
     title: "Interval Game",
     description:
       "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/the-almost-final-countdown",
   },
   {
     title: "Meetup app",
     description:
       "A simple app that allows users to create and join meetups. It was a fun project to make and helped me understand the basics of React.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/next-js-meetup-app",
     liveLink: "https://next-js-meetup-app-navy.vercel.app/",
   },
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     title: "Quiz app",
     description:
       "A simple quiz app that allows users to take a quiz and see their react skills. When the quiz ends users get a page that shows their score. It was a fun project to make and helped me understand the basics of React.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/quiz-app/",
     liveLink: "https://quiz-game-lemon-three.vercel.app/",
   },
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     title: "Code Challenge backend",
     description:
       "Code challenge from my job where we were supposed to implement a backend for a website. The database tracks users, orders products and wishlists. CRUD operations for all entities.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/CodeChallenge",
     liveLink: "",
   },
@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     title: "Investment Calculator",
     description:
       "An investment calculator that allows users to calculate their investment returns. Updates in real time and displays a table based on duration.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/investment-calc-v2",
     liveLink: "https://investment-calc-zeta.vercel.app/",
   },
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     title: "Fractal tree",
     description:
       "A simple fractal tree made with recursion in JavasScript. A work in progress that i plan on expanding to allow users to interact with the tree.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/fractal-tree",
     liveLink: "https://fractal-tree-swart.vercel.app/",
   },
@@ -81,21 +81,21 @@ export const PROJECTS: Project[] = [
     title: "Project Management app",
     description:
       "Project management app that allows users to create projects and add tasks to them.",
-    technologies: [""],
+    technologies: [],
     githubLink: "https://github.com/Brobo1/project-management-app-follow-along",
     liveLink: "https://project-management-app-three-sigma.vercel.app/",
   },
   {
     title: "",
     description: "",
-    technologies: [""],
+    technologies: [],
     githubLink: "",
     liveLink: "",
   },
   {
     title: "",
     description: "",
-    technologies: [""],
+    technologies: [],
     githubLink: "",
     liveLink: "",
   },
