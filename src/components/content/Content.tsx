@@ -10,7 +10,7 @@ export function Content() {
         <ContentHeading title={"about"} />
         <About />
       </div>
-      <div id={"projects"}>
+      <div id={"projects"} className={styles.projects}>
         <ContentHeading title={"projects"} />
         <Projects />
       </div>

@@ -60,7 +60,7 @@ function NavbarItem(props: { text: string }) {
       to={props.text}
       spy={true}
       smooth={true}
-      duration={150}
+      duration={300}
       onMouseOver={startHover}
       onMouseOut={endHover}
       onSetActive={() => setIsActive(true)}
