@@ -34,6 +34,7 @@ export const PROJECTS: Project[] = [
       "A small challenge type game made to test the user's reaction time. It was a fun project to make and helped me understand the basics of JavaScript.",
     technologies: ["React", "JavaScript"],
     githubLink: "https://github.com/Brobo1/the-almost-final-countdown",
+    liveLink: "https://the-almost-final-countdown.vercel.app/",
   },
   {
     title: "Meetup app",
