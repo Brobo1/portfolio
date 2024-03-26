@@ -1,0 +1,9 @@
+.div {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.div svg {
+  font-size: 58px;
+}
