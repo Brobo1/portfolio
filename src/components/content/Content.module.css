@@ -8,3 +8,16 @@
 .projects {
   padding: 1em 0;
 }
+
+@media (max-width: 1000px) {
+  .main {
+    padding: 1em 0;
+
+    width: 80%;
+  }
+}
+@media (max-width: 640px) {
+  .main {
+    width: 95%;
+  }
+}

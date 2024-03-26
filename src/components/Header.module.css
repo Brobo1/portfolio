@@ -22,3 +22,17 @@
   color: #a2a2a2;
   font-size: 1.3em;
 }
+
+@media (max-width: 1000px) {
+  .div {
+    width: 80%;
+    padding: 3em 0 0 0;
+    position: relative;
+  }
+}
+
+@media (max-width: 640px) {
+  .div {
+    width: 95%;
+  }
+}
