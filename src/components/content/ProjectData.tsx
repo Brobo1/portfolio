@@ -16,6 +16,20 @@ export const PROJECTS: Project[] = [
     liveLink: "https://brobo1.github.io/etch-a-sketch/",
   },
   {
+    title: "FoodFood Frontend",
+    description:
+      "FoodFood is a food delivery app done as part of a coding challenge after my .NET bootcamp was completed.",
+    technologies: ["TypeScript", "React", "Tailwind", "Redux", "ant.design"],
+    githubLink: "https://github.com/AgustinaScapusio/FoodFoodApp",
+  },
+  {
+    title: "FoodFood Backend",
+    description:
+      "FoodFood is a food delivery app done as part of a coding challenge after my .NET bootcamp was completed.",
+    technologies: ["C#", "ASP.NET", "EF Core", "SQLite", "MSSQL", "Azure"],
+    githubLink: "https://github.com/Brobo1/FoodFoodAPI",
+  },
+  {
     title: "Borro Backend",
     description:
       "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
@@ -25,8 +39,9 @@ export const PROJECTS: Project[] = [
   {
     title: "Borro Frontend",
     description: "Frontend for the Borro project.",
-    technologies: ["React", "MUI", "Google maps API", "Typescript"],
+    technologies: ["React", "Typescript", "Google maps API", "MUI"],
     githubLink: "https://github.com/Sasibru/borro-react-app",
+    liveLink: "https://github.com/Sasibru/borro-react-app",
   },
   {
     title: "TicTacToe",

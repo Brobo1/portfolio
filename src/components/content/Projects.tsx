@@ -67,6 +67,7 @@ const Project: React.FC<
     px: "5px",
     pt: "2px",
     pb: "1px",
+    backgroundColor: "#292929",
     color: "#919191",
     "&:hover": {
       backgroundColor: "#949494",
@@ -102,7 +103,7 @@ const Project: React.FC<
         <div className={styles.projectContainerButtons}>
           {liveLink ? (
             <Button
-              sx={sxStyle}
+              sx={{ ...sxStyle, minWidth: "80px" }}
               size="small"
               variant="text"
               onClick={() => window.open(liveLink, "_blank")}
@@ -111,7 +112,7 @@ const Project: React.FC<
             </Button>
           ) : null}
           <Button
-            sx={sxStyle}
+            sx={{ ...sxStyle, minWidth: "120px" }}
             size="small"
             variant="text"
             onClick={() => window.open(githubLink, "_blank")}
