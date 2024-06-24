@@ -8,6 +8,14 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Etch-a-Sketch",
+    description:
+      "This is a panting app made following the Odin Project course.",
+    technologies: ["JavaScript", "HTML/CSS"],
+    githubLink: "https://github.com/Brobo1/etch-a-sketch",
+    liveLink: "https://brobo1.github.io/etch-a-sketch/",
+  },
+  {
     title: "Borro Backend",
     description:
       "Borro is a website that was developed as a major project before graduation. It showcases a variety of skills including front-end development, back-end integration, and user experience design. The project was a success and received positive feedback from users and peers alike.",
