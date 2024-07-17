@@ -12,8 +12,10 @@ export const PROJECTS: Project[] = [
     description:
       "This is a panting app made following the Odin Project course.",
     technologies: ["JavaScript", "HTML/CSS"],
-    githubLink: "https://github.com/Brobo1/etch-a-sketch",
-    liveLink: "https://brobo1.github.io/etch-a-sketch/",
+    githubLink:
+      "https://github.com/Brobo1/OdinProject/tree/master/foundations/projects/etch-a-sketch",
+    liveLink:
+      "https://brobo1.github.io/OdinProject/foundations/projects/etch-a-sketch/",
   },
   {
     title: "FoodFood Frontend",
