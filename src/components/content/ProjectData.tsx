@@ -8,6 +8,13 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Binary search tree",
+    description: "A binary search tree made following the odin project",
+    technologies: ["JavaScript"],
+    githubLink:
+      "https://github.com/Brobo1/OdinProject/tree/master/full-stack-js/javascript/projects/data-structures/binary-search-tree",
+  },
+  {
     title: "Tic-tac-toe",
     description:
       "Tic-tac-toe game made from scratch following The Odin Project",
