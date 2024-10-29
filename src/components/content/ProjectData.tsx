@@ -11,7 +11,8 @@ export const PROJECTS: Project[] = [
     title: "Battleship (WIP)",
     description: "The game Battleship made in JavaScript",
     technologies: ["JavaScript"],
-    githubLink: "https://brobo1.github.io/battleship/",
+    githubLink: "https://github.com/Brobo1/battleship",
+    liveLink: "https://brobo1.github.io/battleship/",
   },
   {
     title: "Binary search tree",
