@@ -8,7 +8,7 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Battleship",
+    title: "Battleship (WIP)",
     description: "The game Battleship made in JavaScript",
     technologies: ["JavaScript"],
     githubLink: "https://brobo1.github.io/battleship/",
