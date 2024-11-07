@@ -8,6 +8,14 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "Memory game",
+    description:
+      "This is a memory game where to objective is to avoid clicking the same card twice. The images are fetched from pokeapi ",
+    technologies: ["React, JavaScript"],
+    githubLink: "https://github.com/Brobo1/memory-card-game",
+    liveLink: "https://brobo1.github.io/memory-card-game/",
+  },
+  {
     title: "Battleship (WIP)",
     description: "The game Battleship made in JavaScript",
     technologies: ["JavaScript"],
