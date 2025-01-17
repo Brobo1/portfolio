@@ -8,6 +8,13 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
+    title: "File uploader/Cloud storage",
+    description: "Website that allows users to upload files and create folders. ",
+    technologies: ["JavaScript", "EJS", "Express", "Passport", "Multer", "Prisma", "Supabase", "TailwindCSS", "PostgreSQL"],
+    githubLink: "https://github.com/Brobo1/file-uploader",
+    liveLink: "https://file-uploader.up.railway.app/",
+  },
+  {
     title: "Battleship (WIP)",
     description: "The game Battleship made in JavaScript",
     technologies: ["JavaScript"],
