@@ -15,15 +15,23 @@ export const PROJECTS: Project[] = [
     liveLink: "https://file-uploader.up.railway.app/",
   },
   {
+    title: "Memory game",
+    description:
+      "This is a memory game where to objective is to avoid clicking the same card twice. The images are fetched from pokeapi.",
+    technologies: ["React, JavaScript"],
+    githubLink: "https://github.com/Brobo1/memory-card-game",
+    liveLink: "https://brobo1.github.io/memory-card-game/",
+  },
+  {
     title: "Battleship (WIP)",
-    description: "The game Battleship made in JavaScript",
+    description: "The game Battleship made in JavaScript.",
     technologies: ["JavaScript"],
     githubLink: "https://github.com/Brobo1/battleship",
     liveLink: "https://brobo1.github.io/battleship/",
   },
   {
     title: "Binary search tree",
-    description: "A binary search tree made following the odin project",
+    description: "A binary search tree made following the odin project.",
     technologies: ["JavaScript"],
     githubLink:
       "https://github.com/Brobo1/OdinProject/tree/master/full-stack-js/javascript/projects/data-structures/binary-search-tree",
@@ -31,7 +39,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Tic-tac-toe",
     description:
-      "Tic-tac-toe game made from scratch following The Odin Project",
+      "Tic-tac-toe game made from scratch following The Odin Project.",
     technologies: ["JavaScript", "HTML/CSS"],
     githubLink:
       "https://github.com/Brobo1/OdinProject/tree/master/full-stack-js/javascript/projects/tic-tac-toe",

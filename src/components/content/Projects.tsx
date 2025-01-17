@@ -67,10 +67,10 @@ const Project: React.FC<
     px: "5px",
     pt: "2px",
     pb: "1px",
-    backgroundColor: "#292929",
-    color: "#919191",
+    backgroundColor: "#272727",
+    color: "#a5a5a5",
     "&:hover": {
-      backgroundColor: "#949494",
+      backgroundColor: "#808080",
       color: "#2a2a2a",
     },
   };
