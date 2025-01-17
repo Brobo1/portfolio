@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     title: "Memory game",
     description:
       "This is a memory game where to objective is to avoid clicking the same card twice. The images are fetched from pokeAPI.",
-    technologies: ["React, JavaScript"],
+    technologies: ["React", "JavaScript"],
     githubLink: "https://github.com/Brobo1/memory-card-game",
     liveLink: "https://brobo1.github.io/memory-card-game/",
   },
